@@ -12,7 +12,7 @@
     setTimeout(() => currentChoice = null, 2000);
   }
 
-  const question = decodeURIComponent(location.hash.slice(1)) || 'Вы любите шоколадное мороженое?';
+  const question = decodeURIComponent(location.hash.slice(1)) || 'Do you like chocolate ice cream?';
   if (!location.hash) location.hash = question;
 </script>
 
