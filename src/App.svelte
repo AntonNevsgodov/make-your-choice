@@ -78,7 +78,6 @@
   .buttons-container {
     display: flex;
     gap: 10px;
-    margin-bottom: 50px;
   }
   button {
     display: block;
